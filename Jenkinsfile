@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'anstarget2' }
+    agent { label 'alpine-agent' }
     stages {
         stage('Welcome Step') {
             steps { 
