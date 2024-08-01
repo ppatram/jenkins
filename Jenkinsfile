@@ -3,7 +3,11 @@ pipeline {
     stages {
         stage('Welcome Step') {
             steps { 
-                texter
+                def sout = new StringBuilder(), serr = new StringBuilder()
+def proc = '/usr/bin/env'.execute()
+proc.consumeProcessOutput(sout, serr)
+proc.waitForOrKill(1000)
+println "out> $sout\nerr> $serr"
             }
         }
     }
