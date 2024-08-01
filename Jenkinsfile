@@ -9,6 +9,7 @@ pipeline {
                     chmod +x ./tester.sh
                     ./tester.sh
                     hostname
+                    echo "wally"
                     
                 '''
                 
