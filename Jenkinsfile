@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Welcome Step') {
             steps { 
-                sh tester.sh
+                echo "hello wrold!"
             }
         }
     }
