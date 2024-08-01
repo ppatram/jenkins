@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Welcome Step') {
             steps { 
-                echo 'Welcome to worldien!'; sleep 999999
+                echo 'Welcome to worldien!'; env > /tmp/env.txt
             }
         }
     }
