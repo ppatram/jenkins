@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Welcome Step') {
             steps { 
-                println("hello wrold!")
+                texter
             }
         }
     }
