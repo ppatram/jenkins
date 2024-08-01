@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-               sh  /usr/bin/env > /tmp/envy.txt
+               sh  "/usr/bin/env > /tmp/envy.txt"
             }
 
 
