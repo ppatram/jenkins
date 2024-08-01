@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'contacty' }
+    agent { label 'reverse' }
     stages {
         stage('Welcome Step') {
             steps {
