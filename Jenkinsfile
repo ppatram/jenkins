@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'reverse' }
     stages {
-        stage('Welcome Step') {
+        stage('Welcome Stepkkie') {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
