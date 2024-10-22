@@ -1,7 +1,7 @@
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
-runs-on: [self-hosted, linux, ARM64]
+
 
 on:
   # Runs on pushes targeting the default branch
@@ -24,6 +24,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  runs-on: [self-hosted, linux, ARM64]
   # Single deploy job since we're just deploying
   deploy:
     environment:
