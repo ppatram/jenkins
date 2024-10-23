@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'reverse' }
+    agent { label 'localhost' }
     stages {
         stage('Welcome Stepkkie') {
             steps {
