@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'localhost' }
+    agent { label 'self-hosted' }
     stages {
         stage('Welcome Stepkkie') {
             steps {
